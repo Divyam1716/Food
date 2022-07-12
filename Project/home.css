@@ -1,0 +1,170 @@
+.background{
+    display: flex;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+    
+} 
+.Account{
+    font-style: normal;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    margin-left: 10%;
+    background-color: rgb(192, 189, 189);
+    
+   
+}
+.logo{
+    color: rgb(254, 109, 6);
+    background-color: white;
+    
+    border-radius: 50%;
+    text-align: center;
+    font-size: 110px;
+    margin-left: 28%;
+    margin-top: 60px;
+    top: 50px;
+    left: 510px;
+    width: 140px;
+    height: 140px;
+
+}
+.alighn{
+    position: absolute;
+    display: inline-block;
+    left: 28%;
+    top: 4%;
+    left: 25%;
+    width: 75%;
+    height: 80%;
+}
+.heading{
+    color: white;
+    
+    font-family: Georgia;
+    margin-left: 1%;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 758px;
+    height: 51px;
+    font: normal normal 600 36px/55px Poppins;
+    
+
+}
+.loc{
+    width: 200px;
+    height: 45px;
+    margin-left: 7%;
+    font-size: 15px;
+    margin-top: 25px;
+    padding-left: 10px;
+    
+
+
+}
+.select{
+    font-family: verdana;
+    font-size: 11px;
+}
+.search{
+    font-size: 15px;
+    font-family: verdana;
+    color: black;
+    height: 45px;
+    width: 410px;
+    margin-left: 1%;
+    padding-left: 30px;
+    
+    
+}
+.search-heading{
+    font-size: 30px;
+    color: #192F60;
+    font-weight: bold;
+    top: 528px;
+    margin-left: 100px;
+    width: 239px;
+    height: 43px;
+    margin-top: 30px;
+}
+.search-subheading{
+    top: 500px;
+    margin-left: 100px;
+    width: 331px;
+    height: 25px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+.row{
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.item{
+    display: inline-block;
+    width: 360px;
+    height: 160px;
+    margin-inline-end: 100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 8px #00000029;
+    opacity: 1;
+    
+}
+.item-left{
+    display: inline-block;
+}
+.item-right{
+    display: inline-block;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 25;
+    vertical-align: top;
+    
+   
+
+
+}
+.item-right-header{
+    font-weight: bold;
+    font-size: 20px;
+    color: #757e90;
+    font-family: arial;
+
+}
+.item-right-content{
+    top: 690px;
+    left: 692px;
+    width: 138px;
+    height: 62px;
+    font-size: 14px;
+    color: #8C96AB;
+    font-family: arial;
+    padding-top: 5px;
+    text-align: left;
+
+}
+.login{
+    
+    right: -50px;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 900px;
+    
+}

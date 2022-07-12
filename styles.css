@@ -1,0 +1,77 @@
+body{
+    background: url(tea.jpg) repeat;
+    color: white;
+}
+div{
+    
+    color: white
+}
+#quote {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+} 
+.movie {
+    color: rgb(17, 18, 17);
+    background: steelblue;
+}
+span#author{
+    text-transform: uppercase;
+}
+.table{
+    position: absolute;
+    background-color: aquamarine;
+    color:blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h2{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: aquamarine;
+}
+thead{
+    background-color: rgb(85, 226, 24);
+
+}
+label{
+    display: inline-block;
+    color: rgb(22, 18, 232);
+}
+input{
+    margin-right: 5px;
+    padding: 5px;
+    color: rgb(227, 19, 130)
+}
+tbody{
+    background-color: azure;
+}
+.row{
+    display: inline-block;
+}
+.item{
+    display: inline-block;
+    width: 360px;
+    height: 125px;
+    margin-inline-end: 50px;
+}
+.item-left{
+    display: inline-block;
+    
+
+}
+.item-right{
+    margin-left: 50%;
+    display: inline-block;
+    
+    vertical-align: top;
+
+}
+.item-right-header{
+    margin-top: -120%;
+
+}
+.item-right-content{
+    
+   margin-top: 20%;
+    width: 100px;
+    height: 65px;
+}
