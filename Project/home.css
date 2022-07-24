@@ -24,6 +24,41 @@
     
    
 }
+
+.nav-bar{
+    display: flex;
+    margin-top: 1%;
+    padding-left: 850px;
+    color: white;
+}
+
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana;
+    list-style: none;
+    padding-left: 30px;
+
+}
+.nav-bar li1{
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: aqua;
+    border-style: groove;
+    padding: 2px 4px;
+    background-color:rgb(192, 189, 189)
+    
+}
+.nav-bar li2{
+    border: solid;
+    background-color:rgb(192, 189, 189);
+    border-style: groove;
+    border-color: aqua;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-left: 20px;
+    padding: 2px 4px;
+}
 .logo{
     color: rgb(254, 109, 6);
     background-color: white;
@@ -168,10 +203,5 @@
     color: #FFFFFF;
     opacity: 1;
     margin-left: 900px;
-    
-}
-.search-box i{
-    color: gray;
-    padding-left: 10px;
     
 }

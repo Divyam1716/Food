@@ -1,0 +1,44 @@
+.sidebar{
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+    background-color: red;
+    margin-left: 30px;
+    vertical-align: top;
+}
+.Result{
+    display: inline-block;
+    width: 60%;
+   
+    margin-left: 30px;
+}
+.item-result{
+   
+    height: 200px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+
+}
+.heading{
+    font-size: 30px;
+    margin: 30px;
+    color: #192F60;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    background-color: rgb(211, 10, 10);
+    height: 50px;
+    padding-left: 1250px;
+    padding-top: 16px;
+}
+.Login{
+
+}    
+.Account{
+    border: #192F60 solid;
+
+}
+.button{
+
+}
