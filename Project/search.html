@@ -1,21 +1,182 @@
 <html>
     <head>
         <title> Search & Filter</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+         
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        
+        <!--Fonts google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./search.css">
     </head>
-    <body>
+    <body class = "main-div">
         <div class="header">
-            <button class="Login">Login</button>
-            <button class="Account">Create an Account</button>
+            <div class="header-left">
+                <div class="logo-container">
+                    <p class="header-left-logo">e!</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-right-credentials">
+                <p class="Login">Login</p>
+                <button class="Account">Create an Account</button>
+                </div>
+                
+            </div>
+            
         </div>
 
         <div class="heading">Breakfast Places in Mumbai</div>
-       <div class="sidebar">
-            Filter Part
-       </div>
-       <div class="Result">
-            <div class="item-result"> Result Part-1</div>
-            <div class="item-result"> Result Part-1</div>
-       </div>
+        <div class="d-flex">
+            <div class="sidebar">
+                <h5 class="siderbar-filter-title">Filters</h5>
+                <div class="sidebar-info">Select Location</div>
+                <select class=" dropdown">
+                    <option default class="dropdown-options">Select Location</option>
+                    <option class="dropdown-options">Mumbai West</option>
+                    <option class="dropdown-options">Mumbai East</option>
+                    <option class="dropdown-options">Andheri East</option>
+                    <option class="dropdown-options">Andheri West</option>
+                    <option class="dropdown-options">Bandra</option>
+                </select> 
+                
+                <p class="sidebar-desc">Cuisine</p>
+
+                <div class="siderbar-filters">
+                    <input type="checkbox" class="sidebar-checkbox">
+                    <p class="sidebar-checkbox-items">North Indian</p>
+                </div>
+                <div class="siderbar-filters">
+                    <input type="checkbox" class="sidebar-checkbox">
+                    <p class="sidebar-checkbox-items">South Indian</p>
+                </div>
+                <div class="siderbar-filters">
+                    <input type="checkbox" class="sidebar-checkbox">
+                    <p class="sidebar-checkbox-items">Chinese</p>
+                </div>
+                <div class="siderbar-filters">
+                    <input type="checkbox" class="sidebar-checkbox">
+                    <p class="sidebar-checkbox-items">Street Food</p>
+                </div>
+                <div class="siderbar-filters">
+                    <input type="checkbox" class="sidebar-checkbox">
+                    <p class="sidebar-checkbox-items">Fast Food</p>
+                </div>
+
+                <p class="sidebar-desc2">Cost for Two</p>
+
+                <div class="sidebar-filters-part2">
+                    <input type="radio" class="sidebar-radio">
+                    <p class="sidebar-radio-label">Less than ` 500</p>
+                </div>
+                <div class="sidebar-filters-part2">
+                    <input type="radio" class="sidebar-radio">
+                    <p class="sidebar-radio-label">` 500 to ` 1000</p>
+                </div>
+                <div class="sidebar-filters-part2">
+                    <input type="radio" class="sidebar-radio">
+                    <p class="sidebar-radio-label">` 1000 to ` 1500</p>
+                </div>
+                <div class="sidebar-filters-part2">
+                    <input type="radio" class="sidebar-radio">
+                    <p class="sidebar-radio-label">` 1500 to ` 2000</p>
+                </div>
+                <div class="sidebar-filters-part2">
+                    <input type="radio" class="sidebar-radio">
+                    <p class="sidebar-radio-label">` 2000+</p>
+                </div>
+
+                <p class="sidebar-desc3">Sort</p>
+                <div class="sidebar-filter-part3">
+                    <input type="radio" class="sidebar-sort">
+                    <p class="sidebar-sort-label">Price low to high</p>
+                </div>
+                <div class="sidebar-filter-part3">
+                    <input type="radio" class="sidebar-sort">
+                    <p class="sidebar-sort-label">Price high to low</p>
+                </div>
+            </div>
+
+            
+
+
+           <div class="Result">
+                <div class="item-result"> 
+                <div class="top-result">
+                    <div class="top-result-left">
+                        <img src="Breakfast.png" class="top-result-left-image" alt>
+                    </div>
+                    <div class="top-result-right">
+                        <p class="top-result-right-title">The Big Chill Cakery</p>
+                        <p class="top-result-right-info">FORT</p>
+                        <p class="top-result-right-address">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                    </div>
+                </div>
+                <hr class="devider">
+                <div class="bottom-result">
+                    <div class="bottom-left-result">
+                        <p class="bottom-left-item">Cusine:</p>
+                        <p class="bottom-left-item">COST FOR TWO: </p>
+                    </div>
+                    <div class="bottom-right-result">
+                        <p class="bottom-right-infos">Bakrey</p>
+                        <p class="bottom-right-infos">₹700</p>
+                    </div>
+                </div>
+                </div>
+                <div class="item-result"> 
+                    <div class="top-result">
+                        <div class="top-result-left">
+                            <img src="Breakfast.png" class="top-result-left-image" alt>
+                        </div>
+                        <div class="top-result-right">
+                            <p class="top-result-right-title">The Bake Shop</p>
+                            <p class="top-result-right-info">FORT</p>
+                            <p class="top-result-right-address">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                        </div>
+                    </div>
+                    <hr class="devider">
+                    <div class="bottom-result">
+                        <div class="bottom-left-result">
+                            <p class="bottom-left-item">Cusine:</p>
+                            <p class="bottom-left-item">COST FOR TWO: </p>
+                        </div>
+                        <div class="bottom-right-result">
+                            <p class="bottom-right-infos">Bakrey</p>
+                            <p class="bottom-right-infos">₹700</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="pagination">
+                        <div class="pagination-container">
+                            <p class="pagination-item0"><</p>
+                        </div>
+                        <div class="pagination-container-one">
+                            <p class="pagination-item-one">1</p>
+                        </div>
+                        <div class="pagination-container">
+                            <p class="pagination-item-two">2</p>
+                        </div>
+                        <div class="pagination-container">
+                            <p class="pagination-item-three">3</p>
+                        </div>
+                        <div class="pagination-container">
+                            <p class="pagination-item-four">4</p>
+                        </div>
+                        <div class="pagination-container">
+                            <p class="pagination-item-five">5</p>
+                        </div>
+                        <div class="pagination-container">
+                            <p class="pagination-item-six">></p>
+                        </div>
+                    </div>
+           </div>
+        </div>
+       
     </body>
 </html>
