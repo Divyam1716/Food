@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <script>
+            function print() {
+                alert("welcome to Javascript Tutorial");
+            }
+        </script>
+        <script type="text/javascript" src="testjs.js"></script>
+
+    </head>
+    <body> 
+        <input type="button" value="Internal" oneclick="print()">
+        <input type="button" value="External" oneclick="session()">
+         <!--JS output-->
+         <!--InnerHTML-->
+         <h3 id ="abc">Hello Learners !</h3>
+         <button onclick="myFun()">innerHTML</button>
+
+        <script>
+            function myFun(){
+                var a = "Welcome to edureka!";
+                var b = document.getElementById("abc");
+
+                b.innerHTML=a;
+            }
+        </script>
+        <!--document.write-->
+        <button onclick="myFun1()">document.write</button>
+        <script>
+            function myFun1(){
+                var a = "welcome to javascript";
+                document.write(a);
+            }
+        </script>
+
+        <!--wimdow.alert-->
+        <button onclick="myFun2()">window.alert</button>
+
+        <script>
+            function myFun2() {
+                var a = "WELCOMe";
+                window.alert(a);
+            }
+        </script>
+
+        <!--window.prompt-->
+        <p>Enter a value: </p>
+        <h3 id = "X"> </h3>
+
+        <script>
+            var a = "Welcome here";
+            document.getElementById("X").innerHTML = a;
+        </script>
+
+        <!--wimdow.confirm-->
+        <p> Choose your answer</p>
+        <button onclick="myFun3()">window.confirm</button>
+
+        <h3 id="Y"> </h3>
+        <script>
+            function myFun3() {
+                var text = "press a button either OK or CANCEL!";
+
+                if(confirm(text)==true){
+                    b = "You pressed OK !";
+                }else {
+                    b = "you Cancelled !";
+                }
+                document.getElementById("Y").innerHTML = b;
+            }
+        </script>
+
+    </body>
+</html>

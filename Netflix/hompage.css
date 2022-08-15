@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+.netflix-navbar{
+    background-color: #0c0c0c;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    transition: background 0.2s linear;
+}
+.netflix-row{
+    width: 300%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
